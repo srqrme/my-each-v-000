@@ -7,3 +7,7 @@ def my_each(collection) # put argument(s) here
   end
   collection
 end
+
+my_each([1, 2, 3, 4]) do |i|
+  i
+end
